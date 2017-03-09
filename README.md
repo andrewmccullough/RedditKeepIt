@@ -1,6 +1,6 @@
 ## Hi there.
 
-We're really excited you're using Reddit LinkSaver! LinkSaver uses Python and PRAW to automate download of the many images you've saved on Reddit. If you're interested in customizing it for your own purposes, the code is marked up simply so you can understand it.
+We're really excited you're using Reddit LinkSaver! LinkSaver uses Python and PRAW to automate download of the many images you've saved on Reddit. It can download images from lots of sources, even if they're not directly hosted. This includes Imgur and Flickr "image links" (which aren't direct links, but HTML files with the image displayed inside them). If you're interested in customizing LinkSaver for your own purposes, the code is marked up simply so you can understand it.
 
 ## Here's what you have to do.
 
