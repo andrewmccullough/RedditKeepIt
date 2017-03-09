@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to LinkSaver!</title>
+        <style media="screen">
+            body {
+                margin: 1em auto;
+                max-width: 40em;
+                padding: 0 .62em;
+                font-size: 1.2em;
+                line-height: 1.6em;
+                font-family: sans-serif;
+            }
+            h1, h2, h3 {
+                line-height: 1.2;
+            }
+            li {
+                margin: 15px 0;
+            }
+            li p {
+                margin: 0;
+            }
+            li code {
+                margin: 8px 0 0 0;
+            }
+            li p code {
+                margin: 0;
+            }
+            code {
+                background: #DDDDDD;
+                padding: 0 6px;
+                display: inline-block;
+                font-family: monospace;
+                border-radius: 4px;
+            }
+            p#copyright {
+                text-align: center;
+                opacity: 0.3;
+                font-size: 0.7em;
+                margin: 30px 0 15px 0;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h2>Hi there.</h2>
+        <p>We're really excited you're using Reddit LinkSaver! LinkSaver uses Python and PRAW to automate download of the many images you've saved on Reddit. If you're interested in customizing it for your own purposes, the code is marked up simply so you can understand it.</p>
+        <h2>Here's what you have to do.</h2>
+        <ol>
+            <li><p>LinkSaver uses Python to do the heavy lifting. Every Mac has Python installed, but it's usually out of date. Run the Terminal command <code>python -V</code> to check what version you have installed. If it's less than 3.4, you'll need to <a target="_blank" href="https://www.python.org/">download it</a>.</p></li>
+            <li><p>You'll need to have PIP installed on your computer to easily install PRAW. Visit <a target="_blank" href="https://pip.pypa.io/en/stable/installing/">their website</a> and download the file <code>get-pip.py</code>. Navigate to your Downloads folder in the Terminal, then use the command <code>python3 get-pip.py</code> to install it.</p></li>
+            <li><p>You'll need to have PRAW installed on your computer to connect to Reddit. We use PIP to install it. Run this Terminal command to install it.</p><code>pip install -U praw</code></li>
+            <li><p>You'll need to create a new script application authorization in your Reddit account. Follow the instructions at <a href="https://praw.readthedocs.io/en/latest/getting_started/authentication.html#script-application" target="_blank">PRAW's website</a>.</p></li>
+        </ol>
+        <h2>All done?</h2>
+        <p>Open the file <code>components.py</code> and input your account and script authorization information. Be sure to follow the instructions in the comments. It does ask for your login information. If you're worried about privacy and security&mdash;a fair concern&mdash;you can look through the code in the executable file <code>LinkSaver.py</code> to see exactly how this information is used. LinkSaver only uses it to connect to your account to download these images.</p>
+        <h2>Let's try it out.</h2>
+        <p>Using Reddit LinkSaver is pretty simple. Now that you've filled out product, personal, and payment information, you can just navigate to LinkSaver's directory in the Terminal and run this command.</p>
+        <code>python3 LinkSaver.py</code>
+        <p>Don't use your computer or web browser while the purchase is occurring.</p>
+        <h2>Problems? Questions? Changes? Send feedback.</h2>
+        <p>
+            If you've got something you want to see changed,
+            <a class="typeform-share link" href="https://andrewrva.typeform.com/to/HL4YOt" data-mode="2" target="_blank">let us know!</a>
+            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm_share',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+        </p>
+        <p id="copyright">Copyright &copy; 2017 All Rights Reserved.</p>
+    </body>
+</html>
