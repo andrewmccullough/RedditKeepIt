@@ -1,6 +1,6 @@
 ## Hi there.
 
-We're really excited you're using KeepIt! KeepIt uses Python and PRAW to automate download of the many images you've saved on Reddit. It can download images from lots of sources, even if they're not directly hosted. This includes Imgur and Flickr "image links" (which aren't really direct image links at all, but HTML files with the image displayed inside them). If you're interested in customizing KeepIt for your own purposes, the code is marked up simply so you can understand it.
+We're really excited you're using **Reddit, KeepIt**! KeepIt uses Python and PRAW to automate download of the many images you've saved on Reddit. It can download images from lots of sources, even if they're not directly hosted. This includes Imgur and Flickr "image links" (which aren't really direct image links at all, but HTML files with the image displayed inside them). If you're interested in customizing KeepIt for your own purposes, the code is marked up simply so you can understand it.
 
 ## Here's what you have to do.
 
@@ -19,7 +19,7 @@ Open the file `components.py` and input your account and script authorization in
 
 ## Let's try it out.
 
-Using Reddit KeepIt is pretty simple. Now that you've filled out product, personal, and payment information, you can just navigate to KeepIt's directory in the Terminal and run this command.
+Using Reddit, KeepIt is pretty simple. Now that you've filled out product, personal, and payment information, you can just navigate to KeepIt's directory in the Terminal and run this command.
 
 `python3 KeepIt.py`
 
@@ -27,4 +27,4 @@ Don't use your computer or web browser while the purchase is occurring.
 
 ## Problems? Questions? Changes? Send feedback.
 
-If you've got something you want to see changed, [let us know!](https://andrewrva.typeform.com/to/HL4YOt)
+If you've got something you want to see changed or a new image host that you'd like added, [let us know](https://andrewrva.typeform.com/to/HL4YOt)!
