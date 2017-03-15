@@ -77,7 +77,7 @@ for submission in reddit.redditor(username).saved(limit = 100):
                 print(" :: [Flickr post.]")
 
                 #Sends a query to the Flickr API using the Flickr-assigned photo ID from original URL.
-                URL = "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=6002c84e96ff95c1a861eafafa4284ba&photo_id=" + flickr.group(2) + "&format=json&nojsoncallback=1"
+                URL = "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=3f575a3181a65ac624e9896b2749c1e6&photo_id=" + flickr.group(2) + "&format=json&nojsoncallback=1"
 
                 #Imports the result of the query as a JSON string.
                 result = requests.get(URL).text
