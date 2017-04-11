@@ -1,4 +1,10 @@
-import urllib.request, shutil, requests, mimetypes, re, os, os.path, json, platform
+import requests
+import mimetypes
+import re
+import os
+import os.path
+import json
+import platform
 from components import *
 
 e = 0 #Resets error counter.
@@ -9,7 +15,7 @@ def get_extension():
     content_type = response.headers['content-type']
     #Identifies extension from filetype.
     extension = mimetypes.guess_extension(content_type)
-    return (extension)
+    return extension
 
 def get_filesize():
     #Identifies filesize in bytes using open "requests.get" statement below.
